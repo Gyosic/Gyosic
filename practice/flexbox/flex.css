@@ -1,0 +1,19 @@
+#outer {
+    display: flex;
+    border: 1px dotted red;
+    padding: 10px;
+}
+.box{
+    flex: 1 1 0;
+    border: 1px solid green;
+    padding: 10px;
+}
+.b1 {
+    flex: 2 1 0;
+}
+.b2 {
+    flex: 2 1 0;
+}
+.b3 {
+    flex: 3 1 0;
+}

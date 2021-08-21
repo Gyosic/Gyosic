@@ -27,3 +27,4 @@ function fibonacci(num) {
   }
   return arr;
 }
+console.log(fibonacci(50));

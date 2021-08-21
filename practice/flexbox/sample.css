@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.col {
+    display:flex;
+    flex-direction: column;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border: 1px solid red;
+}
+
+.icon {
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border: 1px dashed orange;
+}
+
+.row {
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border: 1px dashed purple;
+}
+
+.w10 {
+    flex: 1 0 0;
+    flex-grow: 1;
+}
+
+.w20 {
+    flex: 2 0 0;
+}
+
+.w70 {
+    flex: 7 0 0;
+}
+
+.h20 {
+    flex: 2 0 0;
+}
+
+.h40 {
+    flex: 4 0 0 ;
+}
+
+.h80 {
+    flex: 8 0 0;
+}

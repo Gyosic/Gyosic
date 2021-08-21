@@ -77,11 +77,7 @@ buttons.addEventListener('click', function (event) {
 // ! Advanced Challenge test와 Nightmare test를 위해서는 아래 주석을 해제하세요.
 
 const display = document.querySelector('.calculator__display--for-advanced'); // calculator__display 엘리먼트와, 그 자식 엘리먼트의 정보를 모두 담고 있습니다.
-let firstNum, operatorForAdvanced, previousKey, previousNum;
-firstNum = '';
-operatorForAdvanced = '';
-previousKey = '';
-previousNum = '';
+let firstNum, operatorForAdvanced, previousKey, previousNum, addNum;
 
 buttons.addEventListener('click', function (event) {
   // 버튼을 눌렀을 때 작동하는 함수입니다.
@@ -108,9 +104,10 @@ buttons.addEventListener('click', function (event) {
     if (action === 'operator') {
       firstNum = display.textContent;
       operatorForAdvanced = buttonContent;
-      if(previousKey === 'number' || 'decimal' || 'operator' || 'calculate'){
+      if(previousKey === 'number' || 'decimal' || 'calculate'){
         display.textContent;
       } 
+      //100 + 100 이 상태에서 '+'를 더 누르면 화면에는 200이 나와야한다.
       
       previousKey = 'operator'
     }

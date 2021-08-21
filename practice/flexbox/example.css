@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    border: 1px dotted red;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    background-color: whitesmoke;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    min-height: 80vh;
+}
+.icon {
+    border: 1px dashed green;
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+.row {
+    border: 1px dashed green;
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+.w10 {
+    flex: 1 0 0;
+}
+.w20 {
+    flex: 2 0 0;
+}
+.w70 {
+    flex: 7 0 0;
+}
+
+.h40 {
+    flex: 4 0 0;
+    
+}
+.h20 {
+    flex: 2 0 0;
+    
+}
+.h80 {
+    flex: 8 0 0;
+    
+}
