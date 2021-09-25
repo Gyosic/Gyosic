@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/movie_app/static/css/main.2976632f.chunk.css",
-    "main.js": "/movie_app/static/js/main.9b2fd20e.chunk.js",
-    "main.js.map": "/movie_app/static/js/main.9b2fd20e.chunk.js.map",
-    "runtime-main.js": "/movie_app/static/js/runtime-main.da0a2829.js",
-    "runtime-main.js.map": "/movie_app/static/js/runtime-main.da0a2829.js.map",
-    "static/js/2.8778d7a6.chunk.js": "/movie_app/static/js/2.8778d7a6.chunk.js",
-    "static/js/2.8778d7a6.chunk.js.map": "/movie_app/static/js/2.8778d7a6.chunk.js.map",
-    "index.html": "/movie_app/index.html",
-    "static/css/main.2976632f.chunk.css.map": "/movie_app/static/css/main.2976632f.chunk.css.map",
-    "static/js/2.8778d7a6.chunk.js.LICENSE.txt": "/movie_app/static/js/2.8778d7a6.chunk.js.LICENSE.txt"
+    "main.css": "/gyosic/movie_app/static/css/main.2976632f.chunk.css",
+    "main.js": "/gyosic/movie_app/static/js/main.9b2fd20e.chunk.js",
+    "main.js.map": "/gyosic/movie_app/static/js/main.9b2fd20e.chunk.js.map",
+    "runtime-main.js": "/gyosic/movie_app/static/js/runtime-main.698328ac.js",
+    "runtime-main.js.map": "/gyosic/movie_app/static/js/runtime-main.698328ac.js.map",
+    "static/js/2.8778d7a6.chunk.js": "/gyosic/movie_app/static/js/2.8778d7a6.chunk.js",
+    "static/js/2.8778d7a6.chunk.js.map": "/gyosic/movie_app/static/js/2.8778d7a6.chunk.js.map",
+    "index.html": "/gyosic/movie_app/index.html",
+    "static/css/main.2976632f.chunk.css.map": "/gyosic/movie_app/static/css/main.2976632f.chunk.css.map",
+    "static/js/2.8778d7a6.chunk.js.LICENSE.txt": "/gyosic/movie_app/static/js/2.8778d7a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.da0a2829.js",
+    "static/js/runtime-main.698328ac.js",
     "static/js/2.8778d7a6.chunk.js",
     "static/css/main.2976632f.chunk.css",
     "static/js/main.9b2fd20e.chunk.js"
